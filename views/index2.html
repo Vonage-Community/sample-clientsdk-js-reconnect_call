@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="A cool thing made with Glitch">
+
+        <title>Reconnect a Call Demo - Receive</title>
+
+        <!-- import the webpage's stylesheet -->
+        <link rel="stylesheet" href="/style.css">
+
+        <!-- import the webpage's client-side javascript file -->
+        <script src="/nexmoClient.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Reconnect App to App Demo</h1>
+        </header>
+
+        <main>
+            <section id="loginContainer">
+                <form id="login">
+                    <label for="username">Username: </label>
+                    <input name="username" id="username" type="text" placeholder="username" aria-labelledby="login" required>
+                    <button type="submit" id="submitButton">Login</button>
+                </form>
+                <div id="errorStatus"></div>
+            </section>
+            <section id="appToAppContainer">
+                <h1>Receive call from App</h1>
+                <div>
+                    Your username: <span id="username-placeholder"></span>
+                </div>
+                <button type="button" id="answer" disabled>Answer</button>
+                <button type="button" id="hangup">Hang Up</button>
+                <div id="status"></div>
+            </section>
+            <button type="button" id="clearLS">clear local storage</button>
+        </main>
+
+        <script type="module" src="/script2.js" defer></script>
+    </body>
+</html>

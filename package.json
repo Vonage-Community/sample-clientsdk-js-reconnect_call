@@ -1,0 +1,29 @@
+{
+  "name": "reconnect-a-call",
+  "version": "1.0.0",
+  "description": "Reconnect a Call with JS Client SDK demo app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "setup": "node setup.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "@vonage/server-sdk": "^2.11.2",
+    "nexmo": "2.7.0-beta-1",
+    "nexmo-client": "^9.0.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": ""
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "vonage",
+    "express",
+    "js client sdk"
+  ]
+}
