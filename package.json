@@ -11,7 +11,7 @@
     "express": "^4.18.1",
     "@vonage/server-sdk": "^2.11.2",
     "nexmo": "2.7.0-beta-1",
-    "nexmo-client": "^9.0.0"
+    "nexmo-client": "^9.1.5"
   },
   "engines": {
     "node": "12.x"
